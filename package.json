@@ -1,0 +1,29 @@
+{
+  "name": "x-git-grep",
+  "version": "0.0.1",
+  "description": "git grep in multiple repos",
+  "main": "index.js",
+  "bin": {
+    "xgg": "bin/cmd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoubin/x-git-grep.git"
+  },
+  "keywords": [
+    "git",
+    "grep",
+    "multiple",
+    "repository"
+  ],
+  "author": "zoubin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zoubin/x-git-grep/issues"
+  },
+  "homepage": "https://github.com/zoubin/x-git-grep#readme",
+  "dependencies": {
+    "array-promise-filter": "^0.1.0",
+    "node-promisify": "^0.1.2"
+  }
+}
